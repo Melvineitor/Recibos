@@ -1,0 +1,43 @@
+button {
+    background-color: black; /* Fondo negro */
+    border: 2px solid black; /* Borde negro */
+    color: white; /* Color del texto en blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+  }
+  
+  button:hover {
+    background-color: white; /* Fondo blanco al pasar el cursor */
+    color: black; /* Color del texto en negro */
+  }
+  
+  button:focus {
+    outline: none; /* Elimina el borde azul al hacer clic */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Efecto de presión al hacer clic */
+  }
+  
+  /* Centrar el botón en la parte superior de la página */
+  mat-toolbar {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    padding-top: 30px; /* Espacio desde la parte superior */
+  }
+  .toolbar-content {
+    display: flex;
+    flex-direction: column; /* Apila los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+  
+  mat-icon, span {
+    margin-bottom: 10px; /* Espacio entre el icono, el texto y el botón */
+  }
+  
+  
